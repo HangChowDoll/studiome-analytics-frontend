@@ -32,3 +32,17 @@ Uses [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) to do 
 - The Esp32 saves the calibration data to the internal eeprom then reboots
 
 ## Issues
+
+- No external leds: I should add some to see what's going on (connected / disconnected / calibration mode, low battery, etc)
+- The only battery that fits properly is only 350mah.
+
+## Parts used
+
+- Platformio: to build and flash the code
+- Esp32 board: Lolin32 lite because it's cheap on aliexpress and has an integrated lipo charger
+- Lipo battery: I used a 402535 (350mah) because it fits nicely
+- USB C connector with breakout board: the shorter & narrower the better
+- Stuff to trim the shell: craft files, flush cutters, (low) power tools
+- A 3d printer to print the usb gasket
+- Superglue to glue the USB connector to the gasket, and the gasket to the shell
+- 30awg solid core wire, solder, flux
