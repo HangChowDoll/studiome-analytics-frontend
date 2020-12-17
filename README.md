@@ -23,3 +23,12 @@ Uses [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) to do 
 - Calibration mode: keep "C" pressed while it wakes from sleep
 - Digital mode: keep "D" pressed while it wakes from sleep. This will send the analog stick data as a digital dpad. This setting is preserved in the eeprom
 - Analog mode: keep "A" pressed while it wakes from sleep. This will send analog stick data as a left stick. This setting is preserved in the eeprom
+
+## Calibration mode
+
+- Press start to wake the controller from sleep, keeping "C" pressed for a few seconds
+- Keep the analog stick in its center position, then press select
+- Move the analog stick to its full range, then press select
+- The Esp32 saves the calibration data to the internal eeprom then reboots
+
+## Issues
