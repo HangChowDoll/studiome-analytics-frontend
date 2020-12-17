@@ -58,3 +58,7 @@ Uses [ESP32-BLE-Gamepad](https://github.com/lemmingDev/ESP32-BLE-Gamepad) to do 
 - Trimmed the analog stick pins flush to make more space for the battery
 - Desoldered the battery connector from the Esp32 since it's too tall otherwise
 - Soldered all the input pins using the test pads to the Esp32. The A B C D test pads are located under the Esp32. The start button needs to be an RTCIO pin as it will be used to wake the Esp32 from sleep
+- Taped the Esp32 to the back of the NeoGeo pcb
+- Soldered the external usb connector to the Esp32. I had to use the legs of the CH340C (pin 5 D+, pin 6 D-) and a diode (5v), as the Esp32 does not expose pads for usb connection
+- Soldered the battery to the battery pads
+- Taped the battery to the back of the NeoGeo pcb
