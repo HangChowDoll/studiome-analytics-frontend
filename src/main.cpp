@@ -7,4 +7,4 @@
 
 // #define JOY_DEBUG 1
 
-const uint REPORT_RA
+const uint REPORT_RATE = 100
