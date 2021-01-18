@@ -10,4 +10,6 @@
 const uint REPORT_RATE = 1000; // micros, 1ms
 const uint POLL_RATE = 1000; // micros
 
-const float DEADZONE =
+const float DEADZONE = 0.20;
+
+con
