@@ -14,3 +14,5 @@ const float DEADZONE = 0.20;
 
 const uint SLEEP_TIMEOUT = 5; // minutes
 const uint SLEEP_BUTTON_TIMEOUT = 5; // seconds
+
+// pins
