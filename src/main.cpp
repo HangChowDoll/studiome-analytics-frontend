@@ -12,4 +12,4 @@ const uint POLL_RATE = 1000; // micros
 
 const float DEADZONE = 0.20;
 
-const uint SLEEP
+const uint SLEEP_TIMEOUT = 5; /
