@@ -17,4 +17,5 @@ const uint SLEEP_BUTTON_TIMEOUT = 5; // seconds
 
 // pins
 
-const byte AXIS_
+const byte AXIS_X_PIN = 34;
+c
