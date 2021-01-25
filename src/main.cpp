@@ -20,4 +20,4 @@ const uint SLEEP_BUTTON_TIMEOUT = 5; // seconds
 const byte AXIS_X_PIN = 34;
 const byte AXIS_Y_PIN = 35;
 
-const byte BUTTON_A_PIN = 19; // errnoeously marked "B" in the mi
+const byte BUTTON_A_PIN = 19; // errnoeously marked "B" in the mini control
