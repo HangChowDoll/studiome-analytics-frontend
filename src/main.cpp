@@ -21,4 +21,4 @@ const byte AXIS_X_PIN = 34;
 const byte AXIS_Y_PIN = 35;
 
 const byte BUTTON_A_PIN = 19; // errnoeously marked "B" in the mini controller
-const byte BUTTON_B_PIN = 23; // errnoeous
+const byte BUTTON_B_PIN = 23; // errnoeously marke
