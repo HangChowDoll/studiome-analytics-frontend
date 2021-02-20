@@ -25,4 +25,4 @@ const byte BUTTON_B_PIN = 23; // errnoeously marked "D"
 const byte BUTTON_C_PIN = 18; // errnoeously marked "A"
 const byte BUTTON_D_PIN = 5;  // errnoeously marked "C"
 
-const byte BUTTON_
+const byte BUTTON_START_PIN = 15
