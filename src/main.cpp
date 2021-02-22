@@ -28,4 +28,4 @@ const byte BUTTON_D_PIN = 5;  // errnoeously marked "C"
 const byte BUTTON_START_PIN = 15;
 const byte BUTTON_SELECT_PIN = 13;
 
-const 
+const byte LED_PIN
