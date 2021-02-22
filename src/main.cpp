@@ -30,4 +30,5 @@ const byte BUTTON_SELECT_PIN = 13;
 
 const byte LED_PIN = 22;
 
-/*
+/* end config */
+
