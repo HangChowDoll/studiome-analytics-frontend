@@ -32,4 +32,4 @@ const byte LED_PIN = 22;
 
 /* end config */
 
-BluJoy joy("Neogeo Mini Gamepad"
+BluJoy joy("Neogeo Mini Gamepad", "SNK", DEAD
