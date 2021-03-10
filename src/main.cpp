@@ -33,4 +33,6 @@ const byte LED_PIN = 22;
 /* end config */
 
 BluJoy joy("Neogeo Mini Gamepad", "SNK", DEADZONE);
-TaskHandle_t core0_handl
+TaskHandle_t core0_handle;
+
+bool IS_BLE_CO
