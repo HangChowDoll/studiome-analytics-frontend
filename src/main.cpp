@@ -36,4 +36,4 @@ BluJoy joy("Neogeo Mini Gamepad", "SNK", DEADZONE);
 TaskHandle_t core0_handle;
 
 bool IS_BLE_CONNECTED = false;
-boo
+bool IS_CLASSIC_
