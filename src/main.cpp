@@ -38,4 +38,6 @@ TaskHandle_t core0_handle;
 bool IS_BLE_CONNECTED = false;
 bool IS_CLASSIC_CONNECTED = false;
 
-byte LED_STATE = HIGH
+byte LED_STATE = HIGH;
+
+bool CALI
