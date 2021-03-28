@@ -38,4 +38,4 @@ TaskHandle_t core0_handle;
 bool IS_BLE_CONNECTED = false;
 bool IS_CLASSIC_CONNECTED = false;
 
-byte
+byte LED_STAT
