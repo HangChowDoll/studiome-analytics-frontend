@@ -40,4 +40,5 @@ bool IS_CLASSIC_CONNECTED = false;
 
 byte LED_STATE = HIGH;
 
-bool CALIBRATION_MODE = fals
+bool CALIBRATION_MODE = false;
+bool DIGITA
