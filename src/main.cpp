@@ -44,4 +44,4 @@ bool CALIBRATION_MODE = false;
 bool DIGITAL_MODE = false;
 
 void report ();
-void rep
+void report_calibrate (
