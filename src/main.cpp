@@ -43,4 +43,5 @@ byte LED_STATE = HIGH;
 bool CALIBRATION_MODE = false;
 bool DIGITAL_MODE = false;
 
-void report 
+void report ();
+void rep
