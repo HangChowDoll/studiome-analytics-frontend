@@ -46,3 +46,4 @@ bool DIGITAL_MODE = false;
 void report ();
 void report_calibrate ();
 void toggle_led ();
+void deep_sleep ();
