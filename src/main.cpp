@@ -44,4 +44,5 @@ bool CALIBRATION_MODE = false;
 bool DIGITAL_MODE = false;
 
 void report ();
-void report_calibrate (
+void report_calibrate ();
+void toggle_led ();
