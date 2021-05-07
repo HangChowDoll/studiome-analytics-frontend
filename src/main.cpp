@@ -50,4 +50,4 @@ void deep_sleep ();
 void ble_conn_check ();
 void poll ();
 
-#
+#ifdef JOY_DEBU
