@@ -51,4 +51,4 @@ void ble_conn_check ();
 void poll ();
 
 #ifdef JOY_DEBUG
-void deb
+void debug_commo
