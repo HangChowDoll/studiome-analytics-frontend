@@ -52,4 +52,4 @@ void poll ();
 
 #ifdef JOY_DEBUG
 void debug_common ();
-TickTwo 
+TickTwo debug_interv
