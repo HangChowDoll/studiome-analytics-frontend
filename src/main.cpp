@@ -51,4 +51,5 @@ void ble_conn_check ();
 void poll ();
 
 #ifdef JOY_DEBUG
-void debug_commo
+void debug_common ();
+TickTwo 
