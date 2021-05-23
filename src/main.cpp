@@ -55,4 +55,4 @@ void debug_common ();
 TickTwo debug_interval(debug_common, 1000, 0); // 1 second
 #endif
 
-TickTwo report_interval(report
+TickTwo report_interval(report, REPORT_RATE, 
