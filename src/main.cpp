@@ -58,4 +58,4 @@ TickTwo debug_interval(debug_common, 1000, 0); // 1 second
 TickTwo report_interval(report, REPORT_RATE, 0, MICROS_MICROS);
 TickTwo poll_interval(poll, POLL_RATE, 0, MICROS_MICROS);
 TickTwo ble_conn_check_interval(ble_conn_check, 1000, 0); // 1 second
-TickTwo calibrate_interval(report_calibrate, RE
+TickTwo calibrate_interval(report_calibrate, REPORT_RA
