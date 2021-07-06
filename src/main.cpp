@@ -60,4 +60,5 @@ TickTwo poll_interval(poll, POLL_RATE, 0, MICROS_MICROS);
 TickTwo ble_conn_check_interval(ble_conn_check, 1000, 0); // 1 second
 TickTwo calibrate_interval(report_calibrate, REPORT_RATE, 0, MICROS_MICROS);
 TickTwo nc_led_interval(toggle_led, 1000, 0); // 1 second
-TickTwo sleep_timeout(deep_sleep, SLEEP_TIMEOUT * 600
+TickTwo sleep_timeout(deep_sleep, SLEEP_TIMEOUT * 60000, 0);
+Tick
