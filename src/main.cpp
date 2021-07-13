@@ -64,4 +64,4 @@ TickTwo sleep_timeout(deep_sleep, SLEEP_TIMEOUT * 60000, 0);
 TickTwo button_sleep_timeout(deep_sleep, SLEEP_BUTTON_TIMEOUT * 1000, 1);
 
 void stop_all_timers () {
-  poll_in
+  poll_interval
