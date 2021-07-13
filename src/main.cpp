@@ -63,4 +63,4 @@ TickTwo nc_led_interval(toggle_led, 1000, 0); // 1 second
 TickTwo sleep_timeout(deep_sleep, SLEEP_TIMEOUT * 60000, 0);
 TickTwo button_sleep_timeout(deep_sleep, SLEEP_BUTTON_TIMEOUT * 1000, 1);
 
-void sto
+void stop_all_time
