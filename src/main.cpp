@@ -67,4 +67,5 @@ void stop_all_timers () {
   poll_interval.stop();
   report_interval.stop();
   ble_conn_check_interval.stop();
-  calibrate_interval
+  calibrate_interval.stop();
+ 
