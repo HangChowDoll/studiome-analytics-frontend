@@ -69,3 +69,4 @@ void stop_all_timers () {
   ble_conn_check_interval.stop();
   calibrate_interval.stop();
   nc_led_interval.stop();
+  sleep_tim
