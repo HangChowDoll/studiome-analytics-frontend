@@ -73,4 +73,4 @@ void stop_all_timers () {
   button_sleep_timeout.stop();
 }
 
-voi
+void update_core
