@@ -74,3 +74,4 @@ void stop_all_timers () {
 }
 
 void update_core1_timers () {
+  report_inter
