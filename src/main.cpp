@@ -75,4 +75,4 @@ void stop_all_timers () {
 
 void update_core1_timers () {
   report_interval.update();
-  ble_co
+  ble_conn_check_interva
