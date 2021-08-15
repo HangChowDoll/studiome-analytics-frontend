@@ -76,4 +76,5 @@ void stop_all_timers () {
 void update_core1_timers () {
   report_interval.update();
   ble_conn_check_interval.update();
-  calibrate_interval.update()
+  calibrate_interval.update();
+  nc_led_int
