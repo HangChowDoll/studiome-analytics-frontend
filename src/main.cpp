@@ -83,3 +83,4 @@ void update_core1_timers () {
 
   #ifdef JOY_DEBUG
   debug_interval.update();
+  #endif
