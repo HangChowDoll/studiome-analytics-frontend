@@ -86,4 +86,5 @@ void update_core1_timers () {
   #endif
 }
 
-void update_core0_time
+void update_core0_timers () {
+  poll
