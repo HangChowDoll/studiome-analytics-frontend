@@ -86,4 +86,4 @@ void update_core1_timers () {
   #endif
 }
 
-void upda
+void update_core0_time
