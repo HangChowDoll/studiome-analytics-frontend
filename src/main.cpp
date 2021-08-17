@@ -78,4 +78,5 @@ void update_core1_timers () {
   ble_conn_check_interval.update();
   calibrate_interval.update();
   nc_led_interval.update();
-  sleep_time
+  sleep_timeout.update();
+ 
