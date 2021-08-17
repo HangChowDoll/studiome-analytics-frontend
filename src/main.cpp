@@ -81,4 +81,4 @@ void update_core1_timers () {
   sleep_timeout.update();
   button_sleep_timeout.update();
 
-  
+  #ifdef JOY_
