@@ -87,4 +87,4 @@ void update_core1_timers () {
 }
 
 void update_core0_timers () {
-  poll
+  poll_interva
