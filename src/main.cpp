@@ -77,4 +77,4 @@ void update_core1_timers () {
   report_interval.update();
   ble_conn_check_interval.update();
   calibrate_interval.update();
-  nc_led_interval.u
+  nc_led_interval.update();
