@@ -82,4 +82,4 @@ void update_core1_timers () {
   button_sleep_timeout.update();
 
   #ifdef JOY_DEBUG
-  debug_interval
+  debug_interval.update();
