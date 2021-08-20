@@ -91,4 +91,4 @@ void update_core0_timers () {
 }
 
 float map_axis_value (uint16_t axis_state_raw) {
-  ret
+  return BluJoy::map
