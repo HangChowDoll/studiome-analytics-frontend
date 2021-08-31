@@ -95,3 +95,4 @@ float map_axis_value (uint16_t axis_state_raw) {
 }
 
 void read_dpad () {
+  joy.set_dpa
