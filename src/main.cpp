@@ -102,4 +102,4 @@ void read_dpad () {
 }
 
 void read_buttons () {
-  joy.
+  joy.set_button
