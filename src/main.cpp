@@ -98,4 +98,7 @@ void read_dpad () {
   joy.set_dpad_analog_state(
     BluJoy::AXIS_LX, BluJoy::AXIS_LY,
     map_axis_value(analogRead(AXIS_X_PIN)), map_axis_value(analogRead(AXIS_Y_PIN))
- 
+  );
+}
+
+void 
