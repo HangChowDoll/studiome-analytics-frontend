@@ -102,4 +102,4 @@ void read_dpad () {
 }
 
 void read_buttons () {
-  joy.set_button_state(BluJo
+  joy.set_button_state(BluJoy::BUTTON_A, dig
