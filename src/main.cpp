@@ -102,4 +102,4 @@ void read_dpad () {
 }
 
 void read_buttons () {
-  joy.set_button
+  joy.set_button_state(BluJo
