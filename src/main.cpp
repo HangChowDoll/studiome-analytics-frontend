@@ -103,4 +103,4 @@ void read_dpad () {
 
 void read_buttons () {
   joy.set_button_state(BluJoy::BUTTON_A, digitalRead(BUTTON_A_PIN));
-  joy.set_button_s
+  joy.set_button_state(BluJoy::BUTTON
