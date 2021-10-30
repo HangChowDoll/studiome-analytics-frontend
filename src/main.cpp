@@ -111,4 +111,5 @@ void read_buttons () {
   joy.set_button_state(BluJoy::BUTTON_SELECT, digitalRead(BUTTON_SELECT_PIN));
 }
 
-void read_axes 
+void read_axes () {
+  joy
