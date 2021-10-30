@@ -112,4 +112,4 @@ void read_buttons () {
 }
 
 void read_axes () {
-  joy
+  joy.set_axis_sta
