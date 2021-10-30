@@ -107,4 +107,4 @@ void read_buttons () {
   joy.set_button_state(BluJoy::BUTTON_X, digitalRead(BUTTON_C_PIN));
   joy.set_button_state(BluJoy::BUTTON_Y, digitalRead(BUTTON_D_PIN));
 
-  joy.set_button_state(BluJoy::BUTTON_START, digitalRead
+  joy.set_button_state(BluJoy::BUTTON_START, digitalRead(BUTTON_START_
