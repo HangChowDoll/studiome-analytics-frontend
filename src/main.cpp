@@ -113,4 +113,4 @@ void read_buttons () {
 
 void read_axes () {
   joy.set_axis_state(BluJoy::AXIS_LX, map_axis_value(analogRead(AXIS_X_PIN)));
-  joy.set
+  joy.set_axis_state
