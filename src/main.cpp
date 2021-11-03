@@ -112,4 +112,4 @@ void read_buttons () {
 }
 
 void read_axes () {
-  joy.set_axis_sta
+  joy.set_axis_state(BluJoy::AX
