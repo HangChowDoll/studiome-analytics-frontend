@@ -116,4 +116,5 @@ void read_axes () {
   joy.set_axis_state(BluJoy::AXIS_LY, map_axis_value(analogRead(AXIS_Y_PIN)));
 }
 
-#ifdef JOY_DE
+#ifdef JOY_DEBUG
+uint
