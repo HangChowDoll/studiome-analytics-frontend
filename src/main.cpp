@@ -126,4 +126,5 @@ void loop () {
 }
 
 void core0_loop (void *p) {
-  fo
+  for(;;) {
+    up
