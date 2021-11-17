@@ -122,4 +122,7 @@ uint32_t poll_runs = 0;
 #endif
 
 void loop () {
-  update_core1_timers()
+  update_core1_timers();
+}
+
+void c
