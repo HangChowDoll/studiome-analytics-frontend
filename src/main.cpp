@@ -117,4 +117,4 @@ void read_axes () {
 }
 
 #ifdef JOY_DEBUG
-uint
+uint32_t report_
