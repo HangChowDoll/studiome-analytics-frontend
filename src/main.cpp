@@ -125,4 +125,5 @@ void loop () {
   update_core1_timers();
 }
 
-void core0_loop (void
+void core0_loop (void *p) {
+  fo
