@@ -121,4 +121,5 @@ uint32_t report_runs = 0;
 uint32_t poll_runs = 0;
 #endif
 
-void loop (
+void loop () {
+  up
