@@ -127,4 +127,6 @@ void loop () {
 
 void core0_loop (void *p) {
   for(;;) {
-    update_core0_timers()
+    update_core0_timers();
+  }
+}
