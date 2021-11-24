@@ -131,4 +131,5 @@ void core0_loop (void *p) {
   }
 }
 
-void star
+void start () {
+  if 
