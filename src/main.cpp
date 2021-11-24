@@ -130,3 +130,5 @@ void core0_loop (void *p) {
     update_core0_timers();
   }
 }
+
+void star
