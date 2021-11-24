@@ -132,4 +132,4 @@ void core0_loop (void *p) {
 }
 
 void start () {
-  if (digitalRead(B
+  if (digitalRead(BUTTON_C_PIN)
