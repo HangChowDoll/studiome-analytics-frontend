@@ -133,4 +133,5 @@ void core0_loop (void *p) {
 
 void start () {
   if (digitalRead(BUTTON_C_PIN) == LOW) {
-    CALIBRATION_MODE = 
+    CALIBRATION_MODE = true;
+    #ifde
