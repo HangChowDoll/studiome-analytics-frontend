@@ -133,4 +133,4 @@ void core0_loop (void *p) {
 
 void start () {
   if (digitalRead(BUTTON_C_PIN) == LOW) {
-    CALIBRA
+    CALIBRATION_MODE = 
