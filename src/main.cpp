@@ -136,3 +136,7 @@ void start () {
     CALIBRATION_MODE = true;
     #ifdef JOY_DEBUG
     Serial.print("calibration mode\n");
+    #endif
+  }
+
+ 
