@@ -140,4 +140,4 @@ void start () {
   }
 
   if (CALIBRATION_MODE) {
-    #ifdef JO
+    #ifdef JOY_DEBUG
