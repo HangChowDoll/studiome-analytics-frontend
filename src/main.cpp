@@ -135,4 +135,4 @@ void start () {
   if (digitalRead(BUTTON_C_PIN) == LOW) {
     CALIBRATION_MODE = true;
     #ifdef JOY_DEBUG
-    Ser
+    Serial.print("
