@@ -134,4 +134,5 @@ void core0_loop (void *p) {
 void start () {
   if (digitalRead(BUTTON_C_PIN) == LOW) {
     CALIBRATION_MODE = true;
-    #ifdef JOY_DEBU
+    #ifdef JOY_DEBUG
+    Ser
