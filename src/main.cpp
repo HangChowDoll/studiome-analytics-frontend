@@ -139,4 +139,5 @@ void start () {
     #endif
   }
 
-  if (CALIBRAT
+  if (CALIBRATION_MODE) {
+ 
