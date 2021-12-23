@@ -142,4 +142,5 @@ void start () {
   if (CALIBRATION_MODE) {
     #ifdef JOY_DEBUG
     Serial.print("calibration mode\n");
-    Serial.print("put all axes in neutral position then press s
+    Serial.print("put all axes in neutral position then press select\n");
+    #e
