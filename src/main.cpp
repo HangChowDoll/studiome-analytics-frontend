@@ -149,4 +149,4 @@ void start () {
 
   } else {
 
-    if (digitalRead(BU
+    if (digitalRead(BUTTON_A_PIN) 
