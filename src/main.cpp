@@ -147,4 +147,6 @@ void start () {
 
     calibrate_interval.start();
 
-  } 
+  } else {
+
+    if
