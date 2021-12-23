@@ -141,4 +141,4 @@ void start () {
 
   if (CALIBRATION_MODE) {
     #ifdef JOY_DEBUG
-    Serial.print("calibr
+    Serial.print("calibration mode\n"
