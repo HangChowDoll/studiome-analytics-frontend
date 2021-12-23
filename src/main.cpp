@@ -149,4 +149,4 @@ void start () {
 
   } else {
 
-    if (digitalRead(BUTTON_A_PIN) 
+    if (digitalRead(BUTTON_A_PIN) == LOW) {
