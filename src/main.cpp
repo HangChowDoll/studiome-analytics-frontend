@@ -150,3 +150,4 @@ void start () {
   } else {
 
     if (digitalRead(BUTTON_A_PIN) == LOW) {
+      DI
