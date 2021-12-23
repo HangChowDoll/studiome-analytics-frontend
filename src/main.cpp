@@ -149,4 +149,4 @@ void start () {
 
   } else {
 
-    if
+    if (digitalRead(BU
