@@ -145,4 +145,4 @@ void start () {
     Serial.print("put all axes in neutral position then press select\n");
     #endif
 
-    c
+    calibrate_inte
