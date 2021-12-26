@@ -154,4 +154,4 @@ void start () {
     } else if (digitalRead(BUTTON_D_PIN) == LOW) {
       DIGITAL_MODE = true;
     } else {
-      DIGITAL_MODE = joy.preferences.getB
+      DIGITAL_MODE = joy.preferences.getBool("di
