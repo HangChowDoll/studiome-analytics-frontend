@@ -157,4 +157,4 @@ void start () {
       DIGITAL_MODE = joy.preferences.getBool("digital-mode", false);
     }
 
-    #ifdef 
+    #ifdef JOY_DEBUG
