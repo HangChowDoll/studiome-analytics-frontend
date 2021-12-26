@@ -158,3 +158,4 @@ void start () {
     }
 
     #ifdef JOY_DEBUG
+    if (DIGITA
