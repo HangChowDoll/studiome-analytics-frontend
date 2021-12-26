@@ -153,4 +153,5 @@ void start () {
       DIGITAL_MODE = false;
     } else if (digitalRead(BUTTON_D_PIN) == LOW) {
       DIGITAL_MODE = true;
-  
+    } else {
+   
