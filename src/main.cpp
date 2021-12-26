@@ -158,4 +158,5 @@ void start () {
     }
 
     #ifdef JOY_DEBUG
-    if (DIGITA
+    if (DIGITAL_MODE)
+   
