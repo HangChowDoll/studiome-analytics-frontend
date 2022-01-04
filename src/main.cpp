@@ -161,4 +161,4 @@ void start () {
     if (DIGITAL_MODE)
       Serial.print("digital mode\n");
     else
-      
+      Serial.p
