@@ -164,4 +164,6 @@ void start () {
       Serial.print("analog mode\n");
     #endif
 
-    joy.read_calibration_data()
+    joy.read_calibration_data();
+
+    #ifdef JO
