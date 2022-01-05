@@ -162,4 +162,6 @@ void start () {
       Serial.print("digital mode\n");
     else
       Serial.print("analog mode\n");
-   
+    #endif
+
+  
