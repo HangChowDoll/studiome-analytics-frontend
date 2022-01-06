@@ -167,4 +167,4 @@ void start () {
     joy.read_calibration_data();
 
     #ifdef JOY_DEBUG
-    f
+    for (byte a
