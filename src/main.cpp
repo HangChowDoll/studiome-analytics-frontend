@@ -167,4 +167,5 @@ void start () {
     joy.read_calibration_data();
 
     #ifdef JOY_DEBUG
-    for (byte axis = 0; axis < BluJoy::AXIS_COUNT; a
+    for (byte axis = 0; axis < BluJoy::AXIS_COUNT; axis++) {
+ 
