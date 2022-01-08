@@ -169,4 +169,5 @@ void start () {
     #ifdef JOY_DEBUG
     for (byte axis = 0; axis < BluJoy::AXIS_COUNT; axis++) {
       Serial.print(String(joy.axis_names[axis]) +
-        " min: " + String(joy.get_axi
+        " min: " + String(joy.get_axis_min(axis)) +
+ 
