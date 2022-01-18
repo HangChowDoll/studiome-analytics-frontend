@@ -179,4 +179,5 @@ void start () {
     joy.connect();
 
     poll_interval.start();
-    report_interval.sta
+    report_interval.start();
+    ble
