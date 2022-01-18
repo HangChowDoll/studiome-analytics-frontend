@@ -176,4 +176,6 @@ void start () {
     }
     #endif
 
- 
+    joy.connect();
+
+    
