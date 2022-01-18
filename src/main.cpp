@@ -171,4 +171,4 @@ void start () {
       Serial.print(String(joy.axis_names[axis]) +
         " min: " + String(joy.get_axis_min(axis)) +
         ", mid: " + String(joy.get_axis_mid(axis)) +
-   
+        ", 
