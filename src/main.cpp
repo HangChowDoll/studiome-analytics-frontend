@@ -182,4 +182,5 @@ void start () {
     report_interval.start();
     ble_conn_check_interval.start();
     nc_led_interval.start();
-    sleep_timeout.st
+    sleep_timeout.start();
+  }
