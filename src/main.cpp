@@ -180,4 +180,5 @@ void start () {
 
     poll_interval.start();
     report_interval.start();
-    ble_conn_check_interval
+    ble_conn_check_interval.start();
+ 
