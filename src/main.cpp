@@ -187,4 +187,5 @@ void start () {
 }
 
 void setup () {
-  #ifd
+  #ifdef JOY_DEBUG
+ 
