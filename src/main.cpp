@@ -188,4 +188,4 @@ void start () {
 
 void setup () {
   #ifdef JOY_DEBUG
-  Serial.begi
+  Serial.begin(115200);
