@@ -186,4 +186,5 @@ void start () {
   }
 }
 
-void setup
+void setup () {
+  #ifd
