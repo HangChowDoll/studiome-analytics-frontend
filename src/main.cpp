@@ -191,4 +191,5 @@ void setup () {
   Serial.begin(115200);
   Serial.print("setup\n");
 
-  debug_interval.star
+  debug_interval.start();
+  #endi
