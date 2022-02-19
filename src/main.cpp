@@ -192,4 +192,6 @@ void setup () {
   Serial.print("setup\n");
 
   debug_interval.start();
-  #endi
+  #endif
+
+  xTaskCr
