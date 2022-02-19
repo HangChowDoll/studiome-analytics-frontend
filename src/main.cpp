@@ -194,4 +194,5 @@ void setup () {
   debug_interval.start();
   #endif
 
-  xTaskCreatePinnedToCor
+  xTaskCreatePinnedToCore(
+    cor
