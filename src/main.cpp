@@ -195,4 +195,4 @@ void setup () {
   #endif
 
   xTaskCreatePinnedToCore(
-    core0_loop, /* Function to implemen
+    core0_loop, /* Function to implement the t
