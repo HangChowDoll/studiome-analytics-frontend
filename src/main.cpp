@@ -199,4 +199,4 @@ void setup () {
     "core0_loop", /* Name of the task */
     8192,  /* Stack size in words */
     NULL,  /* Task input parameter */
-    0,  /* Priority o
+    0,  /* Priority of the task 
