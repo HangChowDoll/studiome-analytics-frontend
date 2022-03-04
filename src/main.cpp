@@ -196,4 +196,4 @@ void setup () {
 
   xTaskCreatePinnedToCore(
     core0_loop, /* Function to implement the task */
-    "co
+    "core0_loop", /* N
