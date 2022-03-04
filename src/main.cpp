@@ -197,4 +197,4 @@ void setup () {
   xTaskCreatePinnedToCore(
     core0_loop, /* Function to implement the task */
     "core0_loop", /* Name of the task */
-    8
+    8192,  /* Stack s
