@@ -200,4 +200,4 @@ void setup () {
     8192,  /* Stack size in words */
     NULL,  /* Task input parameter */
     0,  /* Priority of the task */
-    &core0_handle,  /*
+    &core0_handle,  /* Task han
