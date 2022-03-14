@@ -201,4 +201,4 @@ void setup () {
     NULL,  /* Task input parameter */
     0,  /* Priority of the task */
     &core0_handle,  /* Task handle. */
-    0 /* Core where
+    0 /* Core where the task 
