@@ -204,4 +204,5 @@ void setup () {
     0 /* Core where the task should run */
   );
 
-  joy.prefs_i
+  joy.prefs_init();
+
