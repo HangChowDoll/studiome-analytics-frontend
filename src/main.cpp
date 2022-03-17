@@ -206,3 +206,4 @@ void setup () {
 
   joy.prefs_init();
 
+  pinMode(LED_PIN, OUT
