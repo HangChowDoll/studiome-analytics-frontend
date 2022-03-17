@@ -208,4 +208,4 @@ void setup () {
 
   pinMode(LED_PIN, OUTPUT);
 
-  p
+  pinMode(BUTTON_A_PIN
