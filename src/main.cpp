@@ -209,4 +209,5 @@ void setup () {
   pinMode(LED_PIN, OUTPUT);
 
   pinMode(BUTTON_A_PIN, INPUT);
-  pinMode(BUTTON_B_PIN, 
+  pinMode(BUTTON_B_PIN, INPUT);
+  pinMode
