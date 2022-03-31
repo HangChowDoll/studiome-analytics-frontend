@@ -214,4 +214,4 @@ void setup () {
   pinMode(BUTTON_D_PIN, INPUT);
 
   pinMode(BUTTON_START_PIN, INPUT_PULLUP);
-  pinMode(BU
+  pinMode(BUTTON_SELECT_PIN, I
