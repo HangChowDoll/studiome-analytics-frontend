@@ -217,4 +217,4 @@ void setup () {
   pinMode(BUTTON_SELECT_PIN, INPUT_PULLUP);
 
   pinMode(AXIS_X_PIN, INPUT);
-  pinMode(AXIS
+  pinMode(AXIS_Y_PIN, 
