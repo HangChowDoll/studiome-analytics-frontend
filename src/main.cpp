@@ -219,4 +219,4 @@ void setup () {
   pinMode(AXIS_X_PIN, INPUT);
   pinMode(AXIS_Y_PIN, INPUT);
 
-  es
+  esp_sleep_enable_ext0_
