@@ -236,4 +236,6 @@ void deep_sleep () {
   #endif
 
   joy.raise_inputs();
+  joy.report();
+
   joy.
