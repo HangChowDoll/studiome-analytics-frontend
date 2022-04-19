@@ -225,4 +225,4 @@ void setup () {
 }
 
 void toggle_led () {
-  digitalWrite(LED_PIN, LED_STA
+  digitalWrite(LED_PIN, LED_STATE = !LED_STA
