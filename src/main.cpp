@@ -221,4 +221,7 @@ void setup () {
 
   esp_sleep_enable_ext0_wakeup((gpio_num_t)BUTTON_START_PIN, LOW);
 
-  start
+  start();
+}
+
+vo
