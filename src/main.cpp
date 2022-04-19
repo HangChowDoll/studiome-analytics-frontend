@@ -228,4 +228,5 @@ void toggle_led () {
   digitalWrite(LED_PIN, LED_STATE = !LED_STATE);
 }
 
-void deep_s
+void deep_sleep () {
+  stop_
