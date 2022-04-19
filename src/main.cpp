@@ -238,4 +238,6 @@ void deep_sleep () {
   joy.raise_inputs();
   joy.report();
 
-  joy.preferences.putBool("digital-mode", DIGITAL_
+  joy.preferences.putBool("digital-mode", DIGITAL_MODE);
+
+  // de
