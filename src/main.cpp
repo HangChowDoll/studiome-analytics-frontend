@@ -235,4 +235,4 @@ void deep_sleep () {
   Serial.print("entering sleep mode\n");
   #endif
 
-  joy.ra
+  joy.raise_inputs()
