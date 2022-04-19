@@ -229,4 +229,4 @@ void toggle_led () {
 }
 
 void deep_sleep () {
-  stop_
+  stop_all_timers()
