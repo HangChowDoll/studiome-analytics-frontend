@@ -219,4 +219,4 @@ void setup () {
   pinMode(AXIS_X_PIN, INPUT);
   pinMode(AXIS_Y_PIN, INPUT);
 
-  esp_sleep_enable_ext0_wakeup((gpio_num_t)BU
+  esp_sleep_enable_ext0_wakeup((gpio_num_t)BUTTON_START_PIN, LO
