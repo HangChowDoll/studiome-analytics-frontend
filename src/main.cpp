@@ -232,4 +232,5 @@ void deep_sleep () {
   stop_all_timers();
 
   #ifdef JOY_DEBUG
-  Serial.print("entering sleep mode\n")
+  Serial.print("entering sleep mode\n");
+  #endi
