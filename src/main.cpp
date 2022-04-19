@@ -238,4 +238,4 @@ void deep_sleep () {
   joy.raise_inputs();
   joy.report();
 
-  joy.
+  joy.preferences.
