@@ -224,4 +224,5 @@ void setup () {
   start();
 }
 
-void toggle_led (
+void toggle_led () {
+  digital
