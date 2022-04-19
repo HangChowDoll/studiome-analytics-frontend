@@ -229,4 +229,6 @@ void toggle_led () {
 }
 
 void deep_sleep () {
-  stop_all_timers()
+  stop_all_timers();
+
+  #ifde
