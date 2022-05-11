@@ -245,4 +245,4 @@ void deep_sleep () {
   esp_deep_sleep_start();
 }
 
-float axes_min[
+float axes_min[2] = { 0.0, 0.
