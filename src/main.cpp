@@ -242,4 +242,5 @@ void deep_sleep () {
 
   // delay needed otherwise buttons remain pressed briefly on disconnect (?)
   delay(120);
-  esp_deep_slee
+  esp_deep_sleep_start();
+}
