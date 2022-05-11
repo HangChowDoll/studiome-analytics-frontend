@@ -240,4 +240,4 @@ void deep_sleep () {
 
   joy.preferences.putBool("digital-mode", DIGITAL_MODE);
 
-  // delay needed otherwise buttons
+  // delay needed otherwise buttons remain pressed 
