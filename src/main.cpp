@@ -246,4 +246,4 @@ void deep_sleep () {
 }
 
 float axes_min[2] = { 0.0, 0.0 };
-flo
+float axes_max[2] = {
