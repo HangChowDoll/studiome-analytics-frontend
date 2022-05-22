@@ -248,4 +248,4 @@ void deep_sleep () {
 float axes_min[2] = { 0.0, 0.0 };
 float axes_max[2] = { 0.0, 0.0 };
 
-byte C
+byte CALIBRATION_STAT
