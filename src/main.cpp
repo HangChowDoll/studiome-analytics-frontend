@@ -249,4 +249,4 @@ float axes_min[2] = { 0.0, 0.0 };
 float axes_max[2] = { 0.0, 0.0 };
 
 byte CALIBRATION_STATE = 0;
-byte special
+byte special_btn_state_o
