@@ -255,4 +255,4 @@ void report_calibrate () {
   read_buttons();
   read_axes();
 
-  byte special_btn_
+  byte special_btn_state_new = jo
