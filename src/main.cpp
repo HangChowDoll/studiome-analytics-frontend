@@ -251,4 +251,5 @@ float axes_max[2] = { 0.0, 0.0 };
 byte CALIBRATION_STATE = 0;
 byte special_btn_state_old = HIGH;
 
-void report_calibrate
+void report_calibrate () {
+  read_b
