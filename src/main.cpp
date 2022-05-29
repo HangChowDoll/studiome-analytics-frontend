@@ -253,4 +253,6 @@ byte special_btn_state_old = HIGH;
 
 void report_calibrate () {
   read_buttons();
-  r
+  read_axes();
+
+  
