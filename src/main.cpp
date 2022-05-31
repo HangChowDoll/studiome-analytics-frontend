@@ -255,4 +255,5 @@ void report_calibrate () {
   read_buttons();
   read_axes();
 
-  byte special_btn_state_new = joy.get_button_state(BluJoy::BUTTON_SELE
+  byte special_btn_state_new = joy.get_button_state(BluJoy::BUTTON_SELECT);
+  bool sp
