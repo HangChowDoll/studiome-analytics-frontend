@@ -259,4 +259,5 @@ void report_calibrate () {
   bool special_pressed = special_btn_state_old == HIGH && special_btn_state_new == LOW;
   special_btn_state_old = special_btn_state_new;
 
-  if (CALIBRATION_STATE == 1
+  if (CALIBRATION_STATE == 1) {
+   
