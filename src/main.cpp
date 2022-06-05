@@ -256,4 +256,4 @@ void report_calibrate () {
   read_axes();
 
   byte special_btn_state_new = joy.get_button_state(BluJoy::BUTTON_SELECT);
-  bool special_pressed = special_btn_state_ol
+  bool special_pressed = special_btn_state_old == HIGH &
