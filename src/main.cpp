@@ -260,4 +260,5 @@ void report_calibrate () {
   special_btn_state_old = special_btn_state_new;
 
   if (CALIBRATION_STATE == 1) {
-    for (byte axis = 0; axis < 2; axis++) { // first 2 axes, LX and 
+    for (byte axis = 0; axis < 2; axis++) { // first 2 axes, LX and LY
+      float 
