@@ -262,4 +262,4 @@ void report_calibrate () {
   if (CALIBRATION_STATE == 1) {
     for (byte axis = 0; axis < 2; axis++) { // first 2 axes, LX and LY
       float state = joy.get_axis_state_raw(axis);
-      i
+      if (state < axes_m
