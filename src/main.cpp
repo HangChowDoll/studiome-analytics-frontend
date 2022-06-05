@@ -264,3 +264,4 @@ void report_calibrate () {
       float state = joy.get_axis_state_raw(axis);
       if (state < axes_min[axis]) {
         axes_min[axis] = state;
+        joy.se
