@@ -267,4 +267,5 @@ void report_calibrate () {
         joy.set_axis_min(axis, state);
       } else if (state > axes_max[axis]) {
         axes_max[axis] = state;
-        joy.set_axis_max(axis, sta
+        joy.set_axis_max(axis, state);
+  
