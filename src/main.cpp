@@ -271,4 +271,4 @@ void report_calibrate () {
       }
     }
   } else if (CALIBRATION_STATE == 0) {
-    for (byte axis = 0; axis < 2; axis++) {
+    for (byte axis = 0; axis < 2; axis++) { // first 2 axes, LX
