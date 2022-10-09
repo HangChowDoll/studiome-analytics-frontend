@@ -272,4 +272,4 @@ void report_calibrate () {
     }
   } else if (CALIBRATION_STATE == 0) {
     for (byte axis = 0; axis < 2; axis++) { // first 2 axes, LX and LY
-      joy.set_axis_mid(axis, joy.
+      joy.set_axis_mid(axis, joy.get_axis_state
