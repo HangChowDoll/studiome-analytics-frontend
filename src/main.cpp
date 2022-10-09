@@ -270,3 +270,4 @@ void report_calibrate () {
         joy.set_axis_max(axis, state);
       }
     }
+  } else if 
