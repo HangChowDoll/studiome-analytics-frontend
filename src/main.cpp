@@ -280,4 +280,4 @@ void report_calibrate () {
     if (CALIBRATION_STATE == 0) {
       CALIBRATION_STATE = 1;
       #ifdef JOY_DEBUG
-      Seri
+      Serial.print("now mov
