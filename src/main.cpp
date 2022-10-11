@@ -278,4 +278,4 @@ void report_calibrate () {
 
   if (special_pressed) {
     if (CALIBRATION_STATE == 0) {
-      C
+      CALIBRATION_S
