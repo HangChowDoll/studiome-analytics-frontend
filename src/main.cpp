@@ -276,4 +276,4 @@ void report_calibrate () {
     }
   }
 
-  if (special_
+  if (special_pressed) {
