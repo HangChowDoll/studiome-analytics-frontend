@@ -279,4 +279,5 @@ void report_calibrate () {
   if (special_pressed) {
     if (CALIBRATION_STATE == 0) {
       CALIBRATION_STATE = 1;
-      #ifdef JOY_DE
+      #ifdef JOY_DEBUG
+      Seri
