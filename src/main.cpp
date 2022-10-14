@@ -280,4 +280,4 @@ void report_calibrate () {
     if (CALIBRATION_STATE == 0) {
       CALIBRATION_STATE = 1;
       #ifdef JOY_DEBUG
-      Serial.print("now move all axes fu
+      Serial.print("now move all axes full range the
