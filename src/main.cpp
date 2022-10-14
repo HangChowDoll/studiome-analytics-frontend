@@ -282,4 +282,5 @@ void report_calibrate () {
       #ifdef JOY_DEBUG
       Serial.print("now move all axes full range then press select\n");
       #endif
-    }
+    } else {
+  
