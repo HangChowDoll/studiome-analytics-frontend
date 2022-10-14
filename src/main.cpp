@@ -283,4 +283,4 @@ void report_calibrate () {
       Serial.print("now move all axes full range then press select\n");
       #endif
     } else {
-  
+      joy.writ
