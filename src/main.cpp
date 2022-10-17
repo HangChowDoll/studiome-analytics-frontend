@@ -285,4 +285,5 @@ void report_calibrate () {
     } else {
       joy.write_calibration_data();
 
-      #ifdef JOY_DEBU
+      #ifdef JOY_DEBUG
+      for (
