@@ -287,4 +287,5 @@ void report_calibrate () {
 
       #ifdef JOY_DEBUG
       for (byte axis = 0; axis < BluJoy::AXIS_COUNT; axis++) {
-        
+        Serial.print(
+  
