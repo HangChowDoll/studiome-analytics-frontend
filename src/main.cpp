@@ -286,4 +286,4 @@ void report_calibrate () {
       joy.write_calibration_data();
 
       #ifdef JOY_DEBUG
-      for (byte axis = 0; axis <
+      for (byte axis = 0; axis < BluJoy::A
