@@ -289,4 +289,4 @@ void report_calibrate () {
       for (byte axis = 0; axis < BluJoy::AXIS_COUNT; axis++) {
         Serial.print(
           String(joy.axis_names[axis]) +
-     
+          " mi
