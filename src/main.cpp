@@ -298,4 +298,6 @@ void report_calibrate () {
       Serial.print("calibration done\n");
       #endif
 
-      calibrate_interval.s
+      calibrate_interval.stop();
+
+     
