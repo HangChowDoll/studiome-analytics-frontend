@@ -301,4 +301,6 @@ void report_calibrate () {
       calibrate_interval.stop();
 
       delay(500);
-      ESP.resta
+      ESP.restart();
+    }
+  }
