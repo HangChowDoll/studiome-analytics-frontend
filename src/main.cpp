@@ -306,4 +306,5 @@ void report_calibrate () {
   }
 }
 
-void ble_conn_ch
+void ble_conn_check () {
+  if
