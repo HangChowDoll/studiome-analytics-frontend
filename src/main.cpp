@@ -308,4 +308,4 @@ void report_calibrate () {
 
 void ble_conn_check () {
   if (!joy.is_connected()) { // Bluetooth not connected
- 
+    if (
