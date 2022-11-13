@@ -307,4 +307,4 @@ void report_calibrate () {
 }
 
 void ble_conn_check () {
-  if
+  if (!joy.is_connected
