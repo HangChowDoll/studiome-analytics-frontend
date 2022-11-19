@@ -312,4 +312,5 @@ void ble_conn_check () {
       #ifdef JOY_DEBUG
       Serial.print("bluetooth disconnected\n");
       #endif
-      digitalWrite(LED_PIN, HIGH
+      digitalWrite(LED_PIN, HIGH);
+   
