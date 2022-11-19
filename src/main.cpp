@@ -311,4 +311,4 @@ void ble_conn_check () {
     if (IS_BLE_CONNECTED) { // was previously connected (is disconnected)
       #ifdef JOY_DEBUG
       Serial.print("bluetooth disconnected\n");
-      
+      #endi
