@@ -313,4 +313,5 @@ void ble_conn_check () {
       Serial.print("bluetooth disconnected\n");
       #endif
       digitalWrite(LED_PIN, HIGH);
-      nc_led_interval
+      nc_led_interval.start();
+   
