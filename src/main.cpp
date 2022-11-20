@@ -317,4 +317,5 @@ void ble_conn_check () {
       IS_BLE_CONNECTED = false;
     }
     return;
-  } else { // Bluetooth connec
+  } else { // Bluetooth connected
+    
