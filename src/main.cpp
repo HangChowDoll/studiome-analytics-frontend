@@ -315,4 +315,6 @@ void ble_conn_check () {
       digitalWrite(LED_PIN, HIGH);
       nc_led_interval.start();
       IS_BLE_CONNECTED = false;
+    }
+    return;
  
