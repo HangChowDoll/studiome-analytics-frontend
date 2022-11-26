@@ -320,4 +320,5 @@ void ble_conn_check () {
   } else { // Bluetooth connected
     if (!IS_BLE_CONNECTED) {
       #ifdef JOY_DEBUG
-      Serial.print("bluetooth connec
+      Serial.print("bluetooth connected\n");
+      
