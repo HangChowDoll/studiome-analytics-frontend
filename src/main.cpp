@@ -326,4 +326,4 @@ void ble_conn_check () {
       joy.raise_inputs();
 
       nc_led_interval.stop();
-      digit
+      digitalWrite(LED_P
