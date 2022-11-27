@@ -325,4 +325,4 @@ void ble_conn_check () {
 
       joy.raise_inputs();
 
-      nc_
+      nc_led_interval.stop()
