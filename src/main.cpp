@@ -323,4 +323,4 @@ void ble_conn_check () {
       Serial.print("bluetooth connected\n");
       #endif
 
-   
+      joy.raise_inputs()
