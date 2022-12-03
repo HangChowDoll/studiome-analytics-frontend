@@ -333,4 +333,4 @@ void ble_conn_check () {
   }
 }
 
-vo
+void poll () 
