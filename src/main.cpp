@@ -330,3 +330,7 @@ void ble_conn_check () {
 
       IS_BLE_CONNECTED = true;
     }
+  }
+}
+
+vo
