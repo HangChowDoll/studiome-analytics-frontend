@@ -348,4 +348,5 @@ void poll () {
 }
 
 void report () {
-  #if
+  #ifdef JOY_DEBUG
+ 
