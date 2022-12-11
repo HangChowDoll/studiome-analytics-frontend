@@ -343,3 +343,5 @@ void poll () {
   if (DIGITAL_MODE) {
     read_dpad();
   } else {
+    read_axes();
+ 
