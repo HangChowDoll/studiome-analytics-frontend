@@ -339,3 +339,5 @@ void poll () {
   #endif
 
   read_buttons();
+
+  if (DIGI
