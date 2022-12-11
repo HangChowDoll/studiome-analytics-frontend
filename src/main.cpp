@@ -347,4 +347,5 @@ void poll () {
   }
 }
 
-void report 
+void report () {
+  #if
