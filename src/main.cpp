@@ -336,4 +336,6 @@ void ble_conn_check () {
 void poll () {
   #ifdef JOY_DEBUG
   poll_runs++;
-  #en
+  #endif
+
+  read_
