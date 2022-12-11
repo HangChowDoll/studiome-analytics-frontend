@@ -340,4 +340,5 @@ void poll () {
 
   read_buttons();
 
-  if (DIGI
+  if (DIGITAL_MODE) {
+   
