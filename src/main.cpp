@@ -354,4 +354,4 @@ void report () {
 
   // FORCE SLEEP
 
-  if (joy.get_button_state(BluJoy:
+  if (joy.get_button_state(BluJoy::BUTTON_SE
