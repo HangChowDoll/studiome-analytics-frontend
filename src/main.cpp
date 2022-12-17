@@ -354,4 +354,5 @@ void report () {
 
   // FORCE SLEEP
 
-  if (joy.get_button_state(BluJoy::BUTTON_SELECT) ==
+  if (joy.get_button_state(BluJoy::BUTTON_SELECT) == LOW) {
+    if
