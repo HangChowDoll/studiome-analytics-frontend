@@ -357,4 +357,4 @@ void report () {
   if (joy.get_button_state(BluJoy::BUTTON_SELECT) == LOW) {
     if (button_sleep_timeout.state() != RUNNING) button_sleep_timeout.start();
   } else {
-    button_sleep_t
+    button_sleep_timeout.stop();
