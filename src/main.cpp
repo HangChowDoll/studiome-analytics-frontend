@@ -361,4 +361,4 @@ void report () {
   }
 
   if (joy.is_any_pressed()) {
-    sleep_t
+    sleep_timeout.stop(
