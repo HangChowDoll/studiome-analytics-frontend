@@ -360,4 +360,4 @@ void report () {
     button_sleep_timeout.stop();
   }
 
-  if (joy.i
+  if (joy.is_any_pressed
