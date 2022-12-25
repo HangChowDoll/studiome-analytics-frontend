@@ -368,4 +368,4 @@ void report () {
   joy.report();
 }
 
-#ifdef
+#ifdef JOY_DEBUG
