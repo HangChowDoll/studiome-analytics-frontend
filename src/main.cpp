@@ -370,4 +370,4 @@ void report () {
 
 #ifdef JOY_DEBUG
 void debug_common () {
-  fo
+  for (byte btn 
