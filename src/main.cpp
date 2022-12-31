@@ -369,4 +369,5 @@ void report () {
 }
 
 #ifdef JOY_DEBUG
-void debug_commo
+void debug_common () {
+  fo
