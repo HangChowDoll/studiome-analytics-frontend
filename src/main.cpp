@@ -370,4 +370,5 @@ void report () {
 
 #ifdef JOY_DEBUG
 void debug_common () {
-  for (byte btn = 0; btn < BluJoy::BUTTON_COUNT; b
+  for (byte btn = 0; btn < BluJoy::BUTTON_COUNT; btn++) {
+   
