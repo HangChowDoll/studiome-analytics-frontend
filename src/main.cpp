@@ -371,4 +371,4 @@ void report () {
 #ifdef JOY_DEBUG
 void debug_common () {
   for (byte btn = 0; btn < BluJoy::BUTTON_COUNT; btn++) {
-    const std::st
+    const std::string spac
