@@ -373,4 +373,5 @@ void debug_common () {
   for (byte btn = 0; btn < BluJoy::BUTTON_COUNT; btn++) {
     const std::string spacer = (btn < BluJoy::BUTTON_COUNT - 1) ? ", " : "";
     Serial.print(
-      String(joy.button_names
+      String(joy.button_names[btn]) +
+      
