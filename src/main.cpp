@@ -374,4 +374,5 @@ void debug_common () {
     const std::string spacer = (btn < BluJoy::BUTTON_COUNT - 1) ? ", " : "";
     Serial.print(
       String(joy.button_names[btn]) +
-      ": " + String(joy.get_button_state(btn)) + spacer.c_str(
+      ": " + String(joy.get_button_state(btn)) + spacer.c_str()
+    );
