@@ -376,3 +376,5 @@ void debug_common () {
       String(joy.button_names[btn]) +
       ": " + String(joy.get_button_state(btn)) + spacer.c_str()
     );
+  }
+  Serial.p
