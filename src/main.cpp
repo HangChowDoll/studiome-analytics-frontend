@@ -378,4 +378,4 @@ void debug_common () {
     );
   }
   Serial.print(" :: ");
-  for (byte axis = 0; ax
+  for (byte axis = 0; axis < BluJoy
