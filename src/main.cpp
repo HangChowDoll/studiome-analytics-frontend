@@ -382,4 +382,4 @@ void debug_common () {
     const std::string spacer = (axis < BluJoy::AXIS_COUNT - 1) ? ", " : "";
     Serial.print(
       String(joy.axis_names[axis]) +
-      ": " + String(joy.get_axis_state(axis)) + "(" + String(joy.get_axis_state_raw(
+      ": " + String(joy.get_axis_state(axis)) + "(" + String(joy.get_axis_state_raw(axis)) + ")" + sp
