@@ -383,4 +383,6 @@ void debug_common () {
     Serial.print(
       String(joy.axis_names[axis]) +
       ": " + String(joy.get_axis_state(axis)) + "(" + String(joy.get_axis_state_raw(axis)) + ")" + spacer.c_str()
-   
+    );
+  }
+  Seri
