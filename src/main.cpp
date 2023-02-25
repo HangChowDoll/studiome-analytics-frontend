@@ -385,4 +385,4 @@ void debug_common () {
       ": " + String(joy.get_axis_state(axis)) + "(" + String(joy.get_axis_state_raw(axis)) + ")" + spacer.c_str()
     );
   }
-  Serial.print(":: DP: " + String(joy.
+  Serial.print(":: DP: " + String(joy.get_dpad_st
