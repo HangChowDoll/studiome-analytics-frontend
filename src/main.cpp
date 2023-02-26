@@ -388,4 +388,5 @@ void debug_common () {
   Serial.print(":: DP: " + String(joy.get_dpad_state()) + "\n");
   Serial.print("report runs: " + String(report_runs) + ", poll runs: " + String(poll_runs) + "\n");
 
-  report_
+  report_runs = 0;
+  
